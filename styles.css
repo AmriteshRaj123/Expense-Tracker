@@ -1,55 +1,78 @@
-/* Basic styling */
+/* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333; /* Dark text color */
 }
 
+/* Header Styles */
 header {
-    background-color: #333;
+    background-color: #007bff; /* Blue header */
     color: #fff;
     padding: 1rem;
     text-align: center;
 }
 
+/* Main Content Styles */
 main {
     padding: 1rem;
 }
 
 section {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem; /* Increased spacing between sections */
+    background-color: #fff; /* White background */
+    padding: 1.5rem;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
+/* Footer Styles */
 footer {
-    background-color: #333;
+    background-color: #007bff; /* Blue footer */
     color: #fff;
     text-align: center;
     padding: 0.5rem;
+    position: fixed; /* Fixed footer */
+    width: 100%;
+    bottom: 0;
 }
 
+/* Form Styles */
 form {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem; /* Increased spacing below form */
 }
 
 label {
     display: block;
     margin-bottom: 0.5rem;
+    font-weight: bold; /* Bold labels */
 }
 
 input, select {
     width: 100%;
-    padding: 0.5rem;
+    padding: 0.75rem; /* Increased input padding */
     margin-bottom: 1rem;
+    border: 1px solid #ced4da; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #007bff; /* Blue border when focused */
 }
 
 button {
-    padding: 0.5rem 1rem;
-    background-color: #333;
+    padding: 0.75rem 1.5rem; /* Increased button padding */
+    background-color: #007bff; /* Blue button */
     color: #fff;
     border: none;
+    border-radius: 4px; /* Rounded corners */
     cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition */
 }
 
 button:hover {
-    background-color: #555;
+    background-color: #0056b3; /* Darker blue on hover */
 }
